@@ -25,6 +25,7 @@ RUN --mount=type=cache,target=/var/cache/apt \
     git \
     libzbar0 \
     python3-tk \
+    libgl1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Ensure Python 3.11 is the default version
