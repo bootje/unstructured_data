@@ -1,0 +1,11 @@
+
+line-length = 120
+
+[lint]
+select = [
+    "ALL"
+]
+unfixable = [
+    "F401"
+]
+
